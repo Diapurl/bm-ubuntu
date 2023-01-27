@@ -6,7 +6,7 @@
 # aktualisiere der Paketquellen und des Systems
 sudo apt update && sudo apt upgrade -y
 
-# lade installationsdateien vom Webserver in "/tmp/bm-ubuntu" hreunter
+# lade installationsdateien vom Webserver in "/tmp/" hreunter
 wget -P /tmp/ https://download.diapurl.com/zoom_amd64.deb
 wget -P /tmp/ https://download.diapurl.com/zoomcitrixplugin-ubuntu_5.13.1.deb
 wget -P /tmp/ https://download.diapurl.com/teams_1.5.00.23861_amd64.deb
